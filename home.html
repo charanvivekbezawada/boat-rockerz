@@ -1,0 +1,339 @@
+<html>
+<title>Boat Rockerz</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+    .navbar {
+        padding-right: 10px;
+        font-size: 20px;
+        font-family: "Nunito", serif;
+        font-weight: bold;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 30px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        border-radius: 30px;
+
+    }
+
+    .navbar a.active {
+        background-color: red;
+        color: white;
+    }
+
+    .header {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    img {
+        max-width: 200%;
+        max-height: 200%;
+    }
+
+    .headertext {
+        font-size: 40px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: black;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Nunito", serif;
+        font-weight: lighter;
+        padding: 0%;
+    }
+
+    .img2section {
+        display: flex;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        background-color: #ffffff;
+    }
+
+    .bodycontent {
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5%;
+    }
+
+    .redbox {
+        border-radius: 30px;
+        padding: 5%;
+        height: min-content;
+        background-color: red;
+        font-size: 30px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+
+    .greybox {
+        border-radius: 30px;
+        padding: 5%;
+        height: min-content;
+        background-color: dimgray;
+        font-size: 30px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blackbox {
+        border-radius: 30px;
+        padding: 5%;
+        height: min-content;
+        background-color: black;
+        font-size: 30px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .boom {
+        border-radius: 30px;
+    }
+
+    .buynow {
+        padding: 3px;
+        background-color: red;
+        border-radius: 30px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: white;
+        align-items: center;
+        text-align: center;
+        transition: 300ms;
+    }
+
+    .buynow:hover{
+        transform: scale(1.03);
+        transition-timing-function: ease-in-out;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+        padding: 10%;
+    }
+
+    .footerlinks {
+        font-size: 30px;
+        color: black;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: black;
+        text-align: right;
+    }
+
+    .headbanner {
+        border-radius: 30px;
+        transition: 300ms;
+    }
+
+    .headbanner:hover {
+        transform: scale(1.01);
+        transition-timing-function: ease-in-out;
+    }
+
+    .boomboom {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .snippets {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 3.3%;
+        padding: 5%;
+    }
+
+    .snippet {
+        border-radius: 30px;
+        transition: 500ms;
+    }
+
+    .snipmain {
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .snippet:hover{
+        transform: scale(1.1);
+        transition-timing-function: ease-in-out;
+    }
+
+
+
+</style>
+
+<body style="background-color:#ffffff;">
+
+
+    <div class="navbar">
+        <a href="home.html"><img src="logo.png" width="30%"></a> 
+        <a class="active" href="home.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>       
+    </div>
+
+    <div class="boomboom">
+    <center> <img class="headbanner" src="headerimage.png" width="100%"> </center>
+    </div>
+  
+
+    <div class="header">
+
+        <div class="headerimg">
+            <img src="mainimg.png">
+        </div>
+
+        <div class="headertext">
+            <h1>boAt Rockerz</h1>
+            <p>boAt Rockerz 550 is an over-ear wireless headset that has been ergonomically designed to meet the needs
+                of music lovers. The headphones come equipped with the latest Bluetooth v5.0 for instant wireless
+                connectivity. Its powerful 500mAh battery provides playtime of up to 20 hours for an extended audio
+                bliss. Its 50mm dynamic drivers help supply immersive musical experience to the user with immersive
+                sound. The user can utilize the headset via dual connectivity in the form of Bluetooth and AUX</p>
+        </div>
+    </div>
+
+    <div class="img2section">
+        <img src="img2.png" width="50%">
+    </div>
+    <img class="boom" src="img3.png" width="100%">
+
+    <div class="bodycontent">
+
+        <div class="redbox">
+            <img src="greyhead.png" width="30%">
+            <div>
+                <h3>Superior Playback: Up to 20 Hours of Music Bliss</h3>
+                <p>The mighty 500mAh battery capacity offers a superior playback time of up to 20 hours</p>
+            </div>
+        </div>
+
+        <div class="greybox">
+            <img src="redhead.png" width="30%">
+            <h3> 50mm Dynamic </h3>
+            <p>Its 50mm dynamic drivers help pump out immersive audio all day long.</p>
+        </div>
+
+        <div class="blackbox">
+            <img src="head3.png" width="30%">
+            <h3> Physical Noise Cancilation </h3>
+            <p>It comes with a physical Noise Isolation feature for pure audio bliss.</p>
+        </div>
+
+        &nbsp
+
+        <a href="https://www.boat-lifestyle.com/products/boat-rockerz-550-fm">
+            <div class="buynow">
+                <h1>Buy Now</h1>
+            </div>
+        </a>
+
+    </div>
+
+    <center>
+    <div class="snippets">
+
+        <div>
+            <img class="snippet" src="snip1.png" width="90%">
+            <p class="snipmain">boAt RockerZ 550</p>
+            <p class="snipsec">8999/-</p>
+        </div>
+
+        <div>
+            <img class="snippet" src="snip2.png" width="90%">
+            <p class="snipmain">boAt RockerZ 420</p>
+            <p class="snipsec">2999/-</p>
+        </div>
+
+        <div>
+            <img class="snippet" src="snip3.png" width="90%">
+            <p class="snipmain">boAt RockerZ 300 anc</p>
+            <p class="snipsec">3999/-</p>
+            
+        </div>
+
+        <div>
+            <img class="snippet" src="snip4.png" width="90%">
+            <p class="snipmain">boAt RockerZ S anc</p>
+            <p class="snipsec">2599/-</p>
+            
+        </div>
+
+        <div>
+            <img class="snippet" src="snip5.png" width="90%">
+            <p class="snipmain">boAt RockerZ ATX Sunburn</p>
+            <p class="snipsec">3999/-</p>
+            
+        </div>
+
+        <div>
+            <img class="snippet" src="snip6.png" width="90%">
+            <p class="snipmain">boAt RockerZ 650 ANC</p>
+            <p class="snipsec">3599/-</p>
+            
+        </div>
+
+    </div>
+
+    <div class="morebutton" >
+        <p>See More ↯ </p>
+    </div>
+
+    </center>
+
+    <div class="footer">
+
+        <div class="footerimage">
+            <img src="logo2.png" width="50%">
+        </div>
+
+        <div class="footerlinks">
+            <a href="home.html">Home</a>
+            <br>
+            <a href="contact.html">Contact Us</a>
+            <br>
+            <a href="about.html">About Us </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
